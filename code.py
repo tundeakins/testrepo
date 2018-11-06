@@ -23,5 +23,9 @@ def do_something():
     ax.add_artist(circle1)
     ax.add_artist(circle2)
     ax.add_artist(circle3)
+    plt.figure(2)
+    plt.plot([1,2,3],[1,2,3])
+    plt.show
+    
     
     print("plot some fun circles")# this will make it much easier in future problems to see that something is actually happening
